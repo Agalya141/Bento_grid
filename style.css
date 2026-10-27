@@ -8,3 +8,14 @@
     --White: hsl(0, 0%, 100%);
     --Black: hsl(0, 0%, 7%)
 }
+*{
+    box-sizing: border-box;
+    margin:0
+}
+body{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    min-height:100vh;
+}
