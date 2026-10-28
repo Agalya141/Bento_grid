@@ -19,3 +19,31 @@ body{
     flex-direction:column;
     min-height:100vh;
 }
+.cards{
+    display:grid
+}
+.reviews{
+    background-color:var(--Purple-500);
+    color:var(--White);
+}
+.platforms{
+    background-color:--White;
+}
+.consistent-schedule{
+    background-color: var(--Yellow-500);
+}
+.schedule-posts{
+    background-color: var(--Purple-100);
+}
+.grow-followers{
+    background-color:var(--Purple-500)
+}
+.audience-growth{
+    background-color: --White;
+}
+.create-post{
+    background-color: var(--Yellow-100);
+}
+.ai-content{
+    background-color:var(--Yellow-500)
+}
