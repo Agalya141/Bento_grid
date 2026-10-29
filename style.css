@@ -20,11 +20,17 @@ body{
     min-height:100vh;
 }
 .cards{
-    display:grid
+    display:grid;
+    gap:1rem;
+}
+.card{
+    border-radius:1rem;
+    padding:1rem;
 }
 .reviews{
     background-color:var(--Purple-500);
     color:var(--White);
+    text-align:center;
 }
 .platforms{
     background-color:--White;
@@ -33,10 +39,13 @@ body{
     background-color: var(--Yellow-500);
 }
 .schedule-posts{
+    text-align:center;
     background-color: var(--Purple-100);
 }
 .grow-followers{
-    background-color:var(--Purple-500)
+    background-color:var(--Purple-500);
+    color:var(--White);
+    text-align:center;
 }
 .audience-growth{
     background-color: --White;
