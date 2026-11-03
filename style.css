@@ -18,14 +18,26 @@ body{
     justify-content:center;
     flex-direction:column;
     min-height:100vh;
+    padding:1rem;
 }
+
 .cards{
     display:grid;
+    grid-template-columns:1fr;
     gap:1rem;
+     max-width:62.5rem;
+      width:100%;
+      margin:0 auto;
+}
+img{
+    width:100%;
+    height:auto;
+    border-radius:1rem;
 }
 .card{
     border-radius:1rem;
     padding:1rem;
+    height:auto;
 }
 .reviews{
     background-color:var(--Purple-500);
@@ -33,7 +45,7 @@ body{
     text-align:center;
 }
 .platforms{
-    background-color:--White;
+    background-color:var(--White);
 }
 .consistent-schedule{
     background-color: var(--Yellow-500);
@@ -48,7 +60,7 @@ body{
     text-align:center;
 }
 .audience-growth{
-    background-color: --White;
+    background-color: var(--White);
 }
 .create-post{
     background-color: var(--Yellow-100);
