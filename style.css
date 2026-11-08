@@ -8,63 +8,81 @@
     --White: hsl(0, 0%, 100%);
     --Black: hsl(0, 0%, 7%)
 }
-*{
+
+* {
     box-sizing: border-box;
-    margin:0
-}
-body{
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    flex-direction:column;
-    min-height:100vh;
-    padding:1rem;
+    margin: 0
 }
 
-.cards{
-    display:grid;
-    grid-template-columns:1fr;
-    gap:1rem;
-     max-width:62.5rem;
-      width:100%;
-      margin:0 auto;
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 1rem;
+
 }
-img{
-    width:100%;
-    height:auto;
-    border-radius:1rem;
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    max-width: 20.5rem;
+    width: 100%;
+    margin: 0 auto;
 }
-.card{
-    border-radius:1rem;
-    padding:1rem;
-    height:auto;
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 1rem;
 }
-.reviews{
-    background-color:var(--Purple-500);
-    color:var(--White);
-    text-align:center;
+
+
+.card {
+    border-radius: 1rem;
+    padding: 1rem;
+    height: auto;
 }
-.platforms{
-    background-color:var(--White);
+
+.speed{
+    color: var(--Yellow-500);
 }
-.consistent-schedule{
-    background-color: var(--Yellow-500);
+
+.reviews {
+    background-color: var(--Purple-500);
+    color: var(--White);
+    text-align: center;
 }
-.schedule-posts{
-    text-align:center;
-    background-color: var(--Purple-100);
-}
-.grow-followers{
-    background-color:var(--Purple-500);
-    color:var(--White);
-    text-align:center;
-}
-.audience-growth{
+
+.platforms {
     background-color: var(--White);
 }
-.create-post{
+
+.consistent-schedule {
+    background-color: var(--Yellow-500);
+}
+
+.schedule-posts {
+    text-align: center;
+    background-color: var(--Purple-100);
+}
+
+.grow-followers {
+    background-color: var(--Purple-500);
+    color: var(--White);
+    text-align: center;
+}
+
+.audience-growth {
+    background-color: var(--White);
+}
+
+.create-post {
     background-color: var(--Yellow-100);
 }
-.ai-content{
-    background-color:var(--Yellow-500)
+
+.ai-content {
+    background-color: var(--Yellow-500)
 }
